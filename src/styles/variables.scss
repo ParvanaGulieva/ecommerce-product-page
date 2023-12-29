@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+// Font Family
+$KumbhSans: "Kumbh Sans", sans-serif;
+
+// Colors
+$bg: #fff;
+$orange: #ff7e1b;
+$text: #1d2026;
+$description: #69707d;
+$grey: #f6f8fd;
+$border: #e4e9f2;
+
+// Shadow
+$shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.5);
+
+// Spacing
+$gap-56: 5.6rem;
+$gap-32: 3.2rem;
+$gap-24: 2.4rem;
+$gap-16: 1.6rem;
+
+// Border radius
+$radius-10: 1rem;
+$radius-15: 1.5rem;
+
+// Font sizes
+$font-size-15: 1.5rem;
+
+// Taransition
+$transition-main: all 300ms;

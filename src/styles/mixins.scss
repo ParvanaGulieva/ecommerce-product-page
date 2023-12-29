@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+// MIXINS
+// Navbar Links
+@mixin link-style($color, $font-size) {
+  color: $color;
+  font-size: $font-size;
+}
+
+@mixin flex-style($direction, $alignment, $justify, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $alignment;
+  justify-content: $justify;
+  gap: $gap;
+}
+
+// Text styles
+@mixin text-style($color, $size, $height, $weight) {
+  color: $color;
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+}
+
+@mixin section-style($width, $left, $right) {
+  max-width: $width;
+  margin-left: $left;
+  margin-right: $right;
+}
